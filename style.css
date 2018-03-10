@@ -1,0 +1,56 @@
+.calculadora{
+	width: 300px;
+	height: 400px;
+}
+
+.pantalla{
+	width: 300px;
+	background-color: #CFD3CF;
+	height: 80px;
+}
+
+.teclado{
+	background-color: #4F4F4D;
+	width: 300px;
+	height: 370px;
+	display: block;
+}
+
+input{
+	font-family: Led;
+	font-size: 50px;
+	color: #F1F412;
+	width: 285px;
+	height: 65px;
+	margin: 5px 5px 5px 5px;
+	background-color: #4F4F4D;
+	text-align: right;
+}
+
+button{
+background-color: #C6C6BE;
+margin: 5px 5px 5px 10px;
+width: 80px;
+height: 60px;
+font-size: 20px;
+font-weight: bold;
+border-radius: 5px;
+}
+
+#igual{
+	float: right;
+	margin-right: 10px;  
+}
+
+#mensaje{
+font-family: Led;
+font-size: 30px;
+width: 300px;
+background-color: #4F4F4D;
+color: #62F20E;
+}
+
+@font-face{
+	font-family: Led;
+	src: url(font/SFDigitalReadout-Heavy.ttf);
+}
